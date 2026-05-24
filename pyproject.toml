@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meok-eu-ai-act-art-26-fria-mcp"
+version = "1.0.0"
+description = "MEOK EU AI Act Article 26(9) Fundamental Rights Impact Assessment generator. Auto-generates a FRIA per Article 27(1) 9 mandatory elements. Cross-walks to GDPR Art 35 DPIA + ISO 42005. By MEOK AI Labs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Nicholas Templeman", email = "nicholas@meok.ai" }]
+keywords = ["mcp", "eu-ai-act", "article-26", "article-27", "fria", "dpia", "fundamental-rights", "meok"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = ["mcp[cli]>=1.3.0"]
+
+[project.urls]
+Homepage = "https://meok.ai/governance"
+Repository = "https://github.com/CSOAI-ORG/meok-eu-ai-act-art-26-fria-mcp"
+
+[project.scripts]
+meok-eu-ai-act-art-26-fria-mcp = "server:main"
+
+[tool.setuptools]
+py-modules = ["server"]
