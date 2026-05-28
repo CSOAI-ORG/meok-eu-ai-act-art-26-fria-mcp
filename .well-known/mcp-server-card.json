@@ -1,0 +1,31 @@
+{
+  "name": "meok-eu-ai-act-art-26-fria-mcp",
+  "title": "Meok Eu Ai Act Art 26 Fria Mcp",
+  "description": "MEOK EU AI Act Article 26(9) Fundamental Rights Impact Assessment generator. Auto-generates a FRIA per Article 27(1) 9 mandatory elements. Cross-walks to GDPR Art 35 DPIA + ISO 42005. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_fria_required"
+    },
+    {
+      "name": "generate_fria"
+    },
+    {
+      "name": "list_art_27_elements"
+    },
+    {
+      "name": "list_annex_iii_categories"
+    },
+    {
+      "name": "crosswalk_to_dpia"
+    },
+    {
+      "name": "sign_fria_chain"
+    }
+  ]
+}
