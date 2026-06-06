@@ -1,4 +1,7 @@
 # Meok Eu Ai Act Art 26 Fria MCP
+mcp-name: io.github.CSOAI-ORG/meok-eu-ai-act-art-26-fria-mcp
+
+# MEOK EU AI Act Article 26(9) FRIA Generator MCP
 
 [![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
 [![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
@@ -118,3 +121,4 @@ Once configured, ask your assistant, for example:
 - "Use `check_fria_required` to …"
 - "Use `generate_fria` to …"
 - "Use `list_art_27_elements` to …"
+<!-- BUY-LADDER:END -->
