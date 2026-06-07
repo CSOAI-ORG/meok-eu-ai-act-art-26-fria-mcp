@@ -1,0 +1,77 @@
+{
+  "name": "meok-eu-ai-act-art-26-fria-mcp",
+  "description": "MEOK EU AI Act Article 26(9) Fundamental Rights Impact Assessment generator. Auto-generates FRIA",
+  "url": "https://proofof.ai/scorecard/meok-eu-ai-act-art-26-fria-mcp.html",
+  "version": "1.0.3",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_fria_required",
+      "name": "Check Fria Required",
+      "description": "check_fria_required via meok-eu-ai-act-art-26-fria-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_fria",
+      "name": "Generate Fria",
+      "description": "generate_fria via meok-eu-ai-act-art-26-fria-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "list_art_27_elements",
+      "name": "List Art 27 Elements",
+      "description": "list_art_27_elements via meok-eu-ai-act-art-26-fria-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "list_annex_iii_categories",
+      "name": "List Annex Iii Categories",
+      "description": "list_annex_iii_categories via meok-eu-ai-act-art-26-fria-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "crosswalk_to_dpia",
+      "name": "Crosswalk To Dpia",
+      "description": "crosswalk_to_dpia via meok-eu-ai-act-art-26-fria-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "sign_fria_chain",
+      "name": "Sign Fria Chain",
+      "description": "sign_fria_chain via meok-eu-ai-act-art-26-fria-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

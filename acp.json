@@ -1,0 +1,24 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-eu-ai-act-art-26-fria-mcp",
+    "description": "MEOK EU AI Act Article 26(9) Fundamental Rights Impact Assessment generator. Auto-generates FRIA",
+    "version": "1.0.3",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-eu-ai-act-art-26-fria-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_fria_required",
+      "generate_fria",
+      "list_art_27_elements",
+      "list_annex_iii_categories",
+      "crosswalk_to_dpia",
+      "sign_fria_chain"
+    ]
+  }
+}
