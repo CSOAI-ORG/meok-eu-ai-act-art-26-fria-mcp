@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meok-eu-ai-act-art-26-fria-mcp"
-version = "1.0.3"
+version = "1.0.4"
 description = "MEOK EU AI Act Article 26(9) Fundamental Rights Impact Assessment generator. Auto-generates a FRIA per Article 27(1) 9 mandatory elements. Cross-walks to GDPR Art 35 DPIA + ISO 42005. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
