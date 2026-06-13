@@ -1,0 +1,2 @@
+[console_scripts]
+meok-eu-ai-act-art-26-fria-mcp = server:main

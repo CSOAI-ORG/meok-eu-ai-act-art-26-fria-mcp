@@ -1,0 +1,134 @@
+{
+  "name": "Meok Eu Ai Act Art 26 Fria Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-eu-ai-act-art-26-fria-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "MEOK EU AI Act Article 26(9) Fundamental Rights Impact Assessment generator. Auto-generates a FRIA per Article 27(1) 9 mandatory elements. Cross-walks to GDPR Art 35 DPIA + ISO 42005. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_fria_required",
+      "name": "Check Fria Required",
+      "description": "Check Fria Required — a tool of the meok-eu-ai-act-art-26-fria-mcp MCP.",
+      "tags": [
+        "eu-ai-act",
+        "gdpr"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_fria",
+      "name": "Generate Fria",
+      "description": "Generate Fria — a tool of the meok-eu-ai-act-art-26-fria-mcp MCP.",
+      "tags": [
+        "eu-ai-act",
+        "gdpr"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "list_art_27_elements",
+      "name": "List Art 27 Elements",
+      "description": "List Art 27 Elements — a tool of the meok-eu-ai-act-art-26-fria-mcp MCP.",
+      "tags": [
+        "eu-ai-act",
+        "gdpr"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "list_annex_iii_categories",
+      "name": "List Annex Iii Categories",
+      "description": "List Annex Iii Categories — a tool of the meok-eu-ai-act-art-26-fria-mcp MCP.",
+      "tags": [
+        "eu-ai-act",
+        "gdpr"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "crosswalk_to_dpia",
+      "name": "Crosswalk To Dpia",
+      "description": "Crosswalk To Dpia — a tool of the meok-eu-ai-act-art-26-fria-mcp MCP.",
+      "tags": [
+        "eu-ai-act",
+        "gdpr"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "sign_fria_chain",
+      "name": "Sign Fria Chain",
+      "description": "Sign Fria Chain — a tool of the meok-eu-ai-act-art-26-fria-mcp MCP.",
+      "tags": [
+        "eu-ai-act",
+        "gdpr"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-eu-ai-act-art-26-fria-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
