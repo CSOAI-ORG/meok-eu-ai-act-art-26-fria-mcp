@@ -124,3 +124,8 @@ Once configured, ask your assistant, for example:
 - "Use `generate_fria` to …"
 - "Use `list_art_27_elements` to …"
 <!-- BUY-LADDER:END -->
+
+## See also
+
+MEOK compliance MCP fleet:
+[`ai-incident-reporting-mcp`](https://github.com/CSOAI-ORG/ai-incident-reporting-mcp), [`nis2-compliance-mcp`](https://github.com/CSOAI-ORG/nis2-compliance-mcp)
